@@ -1,16 +1,16 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -5353291742575900958,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 869
+      "questIDLow:4": 2675
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3223
+      "questIDHigh:4": 6250663031082139962,
+      "questIDLow:4": -7488873106708724551
     }
   },
-  "questIDLow:4": 3226,
+  "questIDLow:4": -7266008273438198017,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,21 +19,21 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Botania:manaResource",
+        "id:8": "Botania:pool",
         "Count:3": 1,
-        "Damage:2": 2,
-        "OreDict:8": "manaDiamond"
+        "Damage:2": 1,
+        "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Mana diamonds",
+      "name:8": "Unlimited Maaaaanaaaaa",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Mana diamonds are magically enhanced diamonds, and they require more or less energy depending on the quality of the gem you\u0027re trying to enchant.\n\nA completely full diluted pool is barely able to make a mana diamond out of an exquisite diamond. Once you upgrade the pool you can use regular diamonds - be it at a higher mana cost."
+      "desc:8": "Trying to get a max rank terrashatterer and standard mana generation methods just aren\u0027t doing it for you? Simply harness the power of infinity to create a mana pool that never runs out. Also comes in a handy infinite mana tablet form for personal use with ring of Loki to really maximize that multiblock spam later."
     }
   },
   "tasks:9": {
@@ -46,13 +46,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.02",
+          "id:8": "Botania:pool",
           "Count:3": 1,
-          "Damage:2": 30500,
-          "OreDict:8": "gemExquisiteDiamond"
+          "Damage:2": 1,
+          "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "partialMatch:1": 1,
@@ -63,13 +63,17 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Botania:manaResource",
+          "id:8": "Botania:manaTablet",
           "Count:3": 1,
-          "Damage:2": 2,
+          "tag:10": {
+            "mana:3": 500000,
+            "creative:1": 1
+          },
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   },
   "rewards:9": {
@@ -78,9 +82,15 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinFlowerI",
-          "Count:3": 10,
+          "id:8": "Botania:blackLotus",
+          "Count:3": 16,
           "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Botania:blackLotus",
+          "Count:3": 16,
+          "Damage:2": 1,
           "OreDict:8": ""
         }
       }

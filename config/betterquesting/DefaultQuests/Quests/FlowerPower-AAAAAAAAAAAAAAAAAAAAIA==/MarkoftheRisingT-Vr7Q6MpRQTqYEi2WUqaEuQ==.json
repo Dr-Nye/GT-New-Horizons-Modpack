@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 6250663031082139962,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3231
+    }
+  },
+  "questIDLow:4": -7488873106708724551,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Botania:laputaShard",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Mark of the Rising Tower?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The dream of anyone trying to create floating islands. The shard of laputa will (over a period of time) lift a sphere of blocks centered around the location it is used up in the air.\nChecking usage on the shard shows higher tiers that you can craft recursively. Those increase the radius of the sphere.\n\n\n\nNow the question remains: How do you get back up there?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[warn]Do not try to lift any GT machines or other tileentities with lots of metadata cause it might corrupt your world.[/warn]"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Botania:laputaShard",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:ender_pearl",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
